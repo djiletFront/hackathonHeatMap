@@ -1,0 +1,19 @@
+.mapBlock {
+    background-color: #ffffff;
+    height: 90vh;
+    max-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 320px;
+    padding: 15px;
+}
+
+
+@media (max-width: 1023.98px) {
+    .mapBlock {
+        height: 100vh;
+        padding: 0;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,15 @@
+.FilterButton {
+    display: none;
+}
+
+@media (max-width: 1023.98px) {
+    .FilterButton {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 40px;
+        z-index: 48;
+    }
+}
+

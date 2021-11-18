@@ -1,0 +1,14 @@
+.Ranking {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+@media (max-width: 489.98px) {
+    .Ranking {
+        min-width: 300px;
+        row-gap: 5px;
+        flex-grow: 1;
+        align-items: center;
+    }
+}

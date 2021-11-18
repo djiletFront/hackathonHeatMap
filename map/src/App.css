@@ -1,0 +1,14 @@
+#Container {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (max-width: 1023.98px) {
+    #Container {
+        padding: 0px;
+        overflow: hidden;
+    }
+}

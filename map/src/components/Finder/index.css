@@ -1,0 +1,29 @@
+.finder {
+    background-color: #ffffff;
+    max-height: 566px;
+    max-width: 280px;
+    width: 100%;
+    padding: 15px 15px 0 15px;
+    margin-right: 20px;
+    z-index: 100;
+}
+
+@media (max-width: 1023.98px) {
+    .finder {
+        max-width: 290px;
+        max-height: 100%;
+        height: 100vh;
+        border-radius: 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translateX(-330px);
+        margin-right: 0;
+        overflow-y: scroll;
+        transition: transform .3s ease-in;
+    }
+
+    .active {
+        transform: translateX(0px);
+    }
+}
